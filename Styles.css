@@ -1,0 +1,72 @@
+.startBtn {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    font-size: 16px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+}
+.startBtn:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.startBtn:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.gameBtn {
+    /*position: relative;*/
+    display: inline-block;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(68,68,68);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+    position: inherit;
+    transition: 0.2s;
+    margin: 5px 5px 5px 5px;
+    width: 90px;
+    height: 90px;
+}
+
+.gameField{
+    position: absolute;
+    color: #010001;
+    border: solid;
+}
+.sizeBox {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+}
+body {
+    background: url(ANIME.jpg) no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+p {
+    position: absolute;
+}
+* {
+   -webkit-user-select: none;
+}
